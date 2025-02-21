@@ -24,7 +24,7 @@ public class BaseEntity {
     private UUID id;
 
     @Column(name = "record_status", nullable = false)
-    private boolean recordStatus;
+    private Boolean recordStatus;
 
     @Column(name = "create_time", nullable = false, updatable = false)
     private LocalDateTime createTime;
